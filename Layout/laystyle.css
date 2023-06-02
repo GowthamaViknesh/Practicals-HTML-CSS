@@ -1,0 +1,58 @@
+:root {
+  --primary: #2f3d46;
+  --secondary: #cad2c5;
+  --light: #ffffff;
+  --black: #000000;
+  --brown: #353535;
+}
+.bg-primary{
+  background:var(--primary)!important;
+  color: var(--light)!important;
+}
+.bg-secondary{
+  background:var(--primary)!important;
+  color: var(--light)!important;
+}
+p{
+  margin: 0px;
+}
+#brandName {
+  letter-spacing: 3px;
+}
+.page-main-container{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--secondary);
+  padding: 50px;
+  box-sizing: border-box;
+}
+.sidebar{
+  width: 100%;
+  height: 100%;
+  background: var(--primary);
+  border-radius: 8px;
+}
+.content-area{
+  height: 100%;
+}
+.search{
+  width: 100%;
+  height: 50px;
+  background: var(--brown);
+  border-radius: 8px;
+
+> input{
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding-inline: 10px;
+  color: var(--light);
+}
+}
+.recntangle{
+  height: 200px;
+  background: var(--brown);
+  border-radius: 8px;
+}
