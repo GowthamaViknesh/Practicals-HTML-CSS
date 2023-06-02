@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+  <!--Creating the container to full contol for this form-->
+  <div class="container-form">
+    <!--Creating the Name textbox and lastname textbox-->
+  <section>
+    <div class="container-text">
+    <label for="Name" style="font-weight: bolder;">Name <span style="color:red">*</span></label><br>
+      <input id="first" type="text"  size="20" maxlength="80">
+      <input id="second" type="text"  size="20" maxlength="80">
+      <div class="text" style="margin: 2px 0px 0px 10px; display: flex; font-size: small;">First
+      <div class="text2" style="margin: 2px 0px 0px 165px; display: flex; font-size: small;">Last</div></div>
+    <br><br>
+    <label for="Email" style="font-weight: bolder;"> Email <span style="color:red">*</span><br>
+      <input id="third" type="email" placeholder="Enter the email" size="64" maxlength="200">
+    </label>
+  </label>
+  </div><br><br>
+</section>
+<!--Creating the experience field with emojis-->
+  <div>
+    <p class="start" style="font-weight: bolder;">Your Experience<span style="color:red">*</span><br>
+    <span id='star' style="font-size:30px;color:rgb(236, 173, 11);">&bigstar;</span>
+    <span id='star' style="font-size:30px;color:rgb(236, 173, 11);">&bigstar;</span>
+    <span id='star' style="font-size:30px;color:rgb(236, 173, 11);">&bigstar;</span>
+    <span id='star' style="font-size:30px;color:rgb(236, 173, 11);">&bigstar;</span>
+    <span id='star' style="font-size:30px;color:rgb(236, 173, 11);">&bigstar;</span>
+    <span id='star' style="font-size:30px;color:rgb(236, 173, 11);">&bigstar;</span>
+    <p style="font-weight: bolder;">Overall how would you rate your experience with us?</p>
+  </p>
+  </div>
+<!--Creating the Table to get the feedback 1st table-->
+  <div>
+    <p><b>How satisfied are you with<span style="color:red">*</span></b></p>
+    <table>
+      <tr>
+        <td>&nbsp;</td>
+        <td>Very Unsatisfied</td>
+        <td>Unsatisfied</td>
+        <td>Neutral</td>
+        <td>Satisfied</td>
+        <td>Very Statisfied</td>
+      </tr>
+      <tr>
+        <td>Purchase</td>
+        <td><input type="radio" id="VeryUnsatisfied" name="contact" value="VeryUnsatisfied"></td>
+        <td><input type="radio" id="Unsatisfied" name="contact" value="Unsatisfied"></td>
+        <td><input type="radio" id="Neutral" name="contact" value="Neutral"></td>
+        <td><input type="radio" id="Satisfied" name="contact" value="Satisfied"></td>
+        <td><input type="radio" id="VeryStatisfied" name="contact" value="VeryStatisfied"></td>
+        </tr>
+        <tr>
+        <td>Service</td>
+        <td><input type="radio" id="VeryUnsatisfied" name="contact" value="VeryUnsatisfied"></td>
+        <td><input type="radio" id="Unsatisfied" name="contact" value="Unsatisfied"></td>
+        <td><input type="radio" id="Neutral" name="contact" value="Neutral"></td>
+        <td><input type="radio" id="Satisfied" name="contact" value="Satisfied"></td>
+        <td><input type="radio" id="VeryStatisfied" name="contact" value="VeryStatisfied"></td>
+        </tr>
+        <tr>
+        <td>Company Overall</td>
+        <td><input type="radio" id="VeryUnsatisfied" name="contact" value="VeryUnsatisfied"></td>
+        <td><input type="radio" id="Unsatisfied" name="contact" value="Unsatisfied"></td>
+        <td><input type="radio" id="Neutral" name="contact" value="Neutral"></td>
+        <td><input type="radio" id="Satisfied" name="contact" value="Satisfied"></td>
+        <td><input type="radio" id="VeryStatisfied" name="contact" value="VeryStatisfied"></td>
+      </tr>
+    </table>
+  </div>
+  <!--Creating the Table to get the feedback 2nd table-->
+  <div>
+    <p><b>How likely are you to<span style="color:red">*</span></b></p>
+    <table>
+      <tr>
+        <td>&nbsp;</td>
+        <td>Very Unlikely</td>
+        <td>Unlikely</td>
+        <td>Neutral</td>
+        <td>Likely</td>
+        <td>Very Likely</td>
+      </tr>
+      <tr>
+        <td>Buy from us again</td>
+        <td><input type="radio" id="VeryUnlikely" name="contact" value="VeryUnlikely"></td>
+        <td><input type="radio" id="VeryUnlikely" name="contact" value="VeryUnlikely"></td>
+        <td><input type="radio" id="Neutral" name="contact" value="Neutral"></td>
+        <td><input type="radio" id="Likely" name="contact" value="Likely"></td>
+        <td><input type="radio" id="VeryLikely" name="contact" value="VeryLikely"></td>
+        </tr>
+        <tr>
+        <td>Recommend our product to others</td>
+        <td><input type="radio" id="VeryUnlikely" name="contact" value="VeryUnlikely"></td>
+        <td><input type="radio" id="VeryUnlikely" name="contact" value="VeryUnlikely"></td>
+        <td><input type="radio" id="Neutral" name="contact" value="Neutral"></td>
+        <td><input type="radio" id="Likely" name="contact" value="Likely"></td>
+        <td><input type="radio" id="VeryLikely" name="contact" value="VeryLikely"></td>
+        </tr>
+        <tr>
+        <td>Recommend our compnay to others</td>
+        <td><input type="radio" id="VeryUnlikely" name="contact" value="VeryUnlikely"></td>
+        <td><input type="radio" id="VeryUnlikely" name="contact" value="VeryUnlikely"></td>
+        <td><input type="radio" id="Neutral" name="contact" value="Neutral"></td>
+        <td><input type="radio" id="Likely" name="contact" value="Likely"></td>
+        <td><input type="radio" id="VeryLikely" name="contact" value="VeryLikely"></td>
+      </tr>
+    </table>
+  </div>
+<br><br>
+<div>
+  <!--Creating the textarea to comments-->
+  <p>Additional Comments or Suggestions<span style="color:red">*</span></p>
+  <textarea name="comments" cols="60" rows="5" minlength="10" maxlength="20"></textarea>
+</div><br>
+<!--Creating the submit button-->
+<button>Submit</button>
+</div>
+</body>
+</html>

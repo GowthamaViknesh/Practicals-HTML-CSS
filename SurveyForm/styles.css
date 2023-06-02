@@ -1,0 +1,49 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgb(57, 198, 233);
+}
+input[type="text"] {
+  margin : 5px 0px 5px 0px;
+  border-radius: 2px;
+  width: 180px;
+  height: 25px;
+  border: none;
+  outline: none;
+}
+input[type="email"]{
+  margin : 5px 0px 5px 0px;
+  border-radius: 2px;
+  width: 400px;
+  height: 25px;
+  border: none;
+  outline: none;
+}
+table{
+  border-collapse: collapse;
+  width: 70%;
+}
+td{
+text-align: center;
+padding: 8px;
+margin: 0;
+}
+tr:nth-child(even) {
+  background-color: #809494;
+}
+input[type="radio"] {
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(243, 113, 38);
+  color:black;
+  padding: 15px 32px;
+  font-size: 13px;
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background: grey;
+  }
+}
